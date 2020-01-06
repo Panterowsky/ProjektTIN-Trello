@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/3c4230fbdf.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/js/lib/jquery-3.4.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <section class="container">
+
+        <div class="thingsToDo">
+            <h1>Do zrobienia: <span class="plus-icon1"><i class="fas fa-plus"></i></span></h1>
+            <input type="text" id="toDoInput1" class='toDoInput1' placeholder="Dodaj">
+
+            <ul class="thingsToDoList">
+                <li><span class="delete-btn"><i class="fa fa-trash"></i></span><span class="progress-btn"><i class="fas fa-spinner"></i></span><span class="checked-btn"><i class="far fa-check-circle"></i></span><span class="task-content">Zrobić zakupy</span></li>
+                <li><span class="delete-btn"><i class="fa fa-trash"></i></span><span class="progress-btn"><i class="fas fa-spinner"></i></span><span class="checked-btn"><i class="far fa-check-circle"></i></span><span class="task-content">Posprzątać</span></li>
+                <li><span class="delete-btn"><i class="fa fa-trash"></i></span><span class="progress-btn"><i class="fas fa-spinner"></i></span><span class="checked-btn"><i class="far fa-check-circle"></i></span><span class="task-content">Ugotować obiad</span></li>
+            </ul>
+        </div>
+
+
+        <div class="thingsInProgress">
+            <h1>W trakcie: <span class="plus-icon3"><i class="fas fa-plus"></i></span></h1>
+            <input type="text" id="toDoInput3" class='toDoInput3' placeholder="Dodaj">
+
+            <ul class="inProgressList">
+                <li><span class="delete-btn"><i class="fa fa-trash"></i></span><span class="negative-btn"><i class="fas fa-minus-circle"></i></span><span class="checked-btn"><i class="far fa-check-circle"></i></span><span class="task-content">Zrobić projekt</span></li>
+                <li><span class="delete-btn"><i class="fa fa-trash"></i></span><span class="negative-btn"><i class="fas fa-minus-circle"></i></span><span class="checked-btn"><i class="far fa-check-circle"></i></span><span class="task-content">Nauczyć się na kolokwium</span></li>
+                <li><span class="delete-btn"><i class="fa fa-trash"></i></span><span class="negative-btn"><i class="fas fa-minus-circle"></i></span><span class="checked-btn"><i class="far fa-check-circle"></i></span><span class="task-content">Pouczyć się z angielskiego</span></li>
+            </ul>
+        </div>
+
+
+
+        <div class="thingsAlreadyDone">
+                <h1>Wykonane: <span class="plus-icon2"><i class="fas fa-plus"></i></span></h1>
+                <input type="text" id="toDoInput2" class='toDoInput2' placeholder="Dodaj">
+
+                <ul class="alreadyDoneList">
+                    <li><span class="delete-btn"><i class="fa fa-trash"></i></span><span class="negative-btn"><i class="fas fa-minus-circle"></i></span><span class="progress-btn"><i class="fas fa-spinner"></i></span><span class="task-content">Wyjść z psem</span></li>
+                    <li><span class="delete-btn"><i class="fa fa-trash"></i></span><span class="negative-btn"><i class="fas fa-minus-circle"></i></span><span class="progress-btn"><i class="fas fa-spinner"></i></span><span class="task-content">Nakarmić rybki</span></li>
+                    <li><span class="delete-btn"><i class="fa fa-trash"></i></span><span class="negative-btn"><i class="fas fa-minus-circle"></i></span><span class="progress-btn"><i class="fas fa-spinner"></i></span><span class="task-content">Pobawić się z kotem</span></li>
+                </ul>
+            </div>
+
+
+
+    </section>
+
+    <script src="https://unpkg.com/popper.js@1"></script>
+    <script src="https://unpkg.com/tippy.js@5"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
